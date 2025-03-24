@@ -1,0 +1,24 @@
+[project]
+name = "fasthtml-data-editor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.2.3",
+    "python-fasthtml>=0.12.4",
+]
+authors = [
+    { name = "eschmidt42", email = "11818904+eschmidt42@users.noreply.github.com" }
+]
+
+[dependency-groups]
+dev = [
+    "playwright>=1.51.0",
+    "pre-commit>=4.2.0",
+    "pytest>=8.3.5",
+    "pytest-playwright>=0.7.0",
+]
+
+[project.scripts]
+simple = "main_simple"
