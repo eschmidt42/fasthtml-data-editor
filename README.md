@@ -2,16 +2,21 @@
 
 ## How to use
 
-    uvx --from git+https://github.com/httpie/cli httpie
-
-## Setup
-
+    git clone https://github.com/eschmidt42/fasthtml-data-editor.git
+    cd fasthtml-data-editor/
     uv sync
 
-https://fastht.ml
+And then either
 
-https://fastht.ml/docs/tutorials/by_example.html
+    python main_simple.py
 
-https://github.com/AnswerDotAI/fasthtml
+or
 
-https://github.com/AnswerDotAI/fasthtml-example
+    python main_hx.py
+
+## References
+
+* https://fastht.ml
+* https://fastht.ml/docs/tutorials/by_example.html
+* https://github.com/AnswerDotAI/fasthtml
+* https://github.com/AnswerDotAI/fasthtml-example
